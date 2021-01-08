@@ -28,7 +28,20 @@ class Model {
                 return   //It will stop execution here in order to check errors
             }
             
-            //Parsing the data into Video Objects
+            do {
+                //Parsing the data into Video Objects
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                
+                dump(response)
+                
+            } catch {
+               
+            }
+            
+            
         }
         
     //Kick Off the task
