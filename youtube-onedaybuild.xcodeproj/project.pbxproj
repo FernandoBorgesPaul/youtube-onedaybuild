@@ -17,6 +17,7 @@
 		B86ED43725A623CE006064D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86ED43525A623CE006064D4 /* Main.storyboard */; };
 		B86ED43925A623D2006064D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86ED43825A623D2006064D4 /* Assets.xcassets */; };
 		B86ED43C25A623D2006064D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86ED43A25A623D2006064D4 /* LaunchScreen.storyboard */; };
+		B89517F825ACA9D7008DE2A2 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89517F725ACA9D7008DE2A2 /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B86ED43825A623D2006064D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86ED43B25A623D2006064D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86ED43D25A623D2006064D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89517F725ACA9D7008DE2A2 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B86ED43A25A623D2006064D4 /* LaunchScreen.storyboard */,
 				B86ED43D25A623D2006064D4 /* Info.plist */,
 				B808D4C225A7A51200BAD37A /* Constants.swift */,
+				B89517F725ACA9D7008DE2A2 /* ConstantsTemplate.swift */,
 				B808D4C525A7A7B500BAD37A /* Video.swift */,
 				B808D4C825A7A82400BAD37A /* Model.swift */,
 				B807B81B25A8CB2100B704AC /* Response.swift */,
@@ -152,6 +155,7 @@
 				B86ED43425A623CE006064D4 /* ViewController.swift in Sources */,
 				B86ED43025A623CE006064D4 /* AppDelegate.swift in Sources */,
 				B86ED43225A623CE006064D4 /* SceneDelegate.swift in Sources */,
+				B89517F825ACA9D7008DE2A2 /* ConstantsTemplate.swift in Sources */,
 				B808D4C925A7A82400BAD37A /* Model.swift in Sources */,
 				B808D4C325A7A51200BAD37A /* Constants.swift in Sources */,
 				B808D4C625A7A7B500BAD37A /* Video.swift in Sources */,
