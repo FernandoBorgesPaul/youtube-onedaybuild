@@ -11,16 +11,16 @@ class Model {
     
     func getVideos() {
         
-    //Create a URL Object
+        //Create a URL Object
         let url = URL(string: K.API_URL)
         
         guard url != nil else {
             return
         }
-    //Get a URLSession Object
+        //Get a URLSession Object
         let session = URLSession.shared
         
-    //Get the DataTask frmo the URLSession Object
+        //Get the DataTask frmo the URLSession Object
         let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
             //Check if there were any errors
@@ -38,14 +38,10 @@ class Model {
                 dump(response)
                 
             } catch {
-               
+                
             }
-            
-            
         }
-        
-    //Kick Off the task
+        //Kick Off the task
         dataTask.resume()
-        
     }
 }
